@@ -3,34 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Article preview component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="./assets/styles/index.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+  <main>
+    <article>
+      <img src="./assets/images/drawers.jpg" alt="Green dresser decorated with vases and pictures">
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+      <div>
+        <div>
+          <h1>
+            Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.
+          </p>
+        </div>
 
-  Michelle Appleton
-  28 Jun 2020
+        <footer>
+          <div>
+            <img src="./assets/images/avatar-michelle.jpg" alt="Photo: Michelle">
+            <div>
+              <strong>Michelle Appleton</strong>
+              <p>28 Jun 2020</p>
+            </div>
+          </div>
 
-  Share
+          <button><img src="./assets/images/icon-share.svg" alt="share"></button>
+
+          <div id="share-container">
+            <p>SHARE</p>
+            <ul>
+              <li><img src="./assets/images/icon-facebook.svg" alt="share on facebook"></li>
+              <li><img src="./assets/images/icon-twitter.svg" alt="share on X"></li>
+              <li><img src="./assets/images/icon-pinterest.svg" alt="share on pinterest"></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      
+    </article>
+  </main>
   
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Guilherme Moreira</a>.
   </footer>
 </body>
 </html>
