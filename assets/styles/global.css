@@ -14,14 +14,15 @@
     --text-lg: 700 1.1rem/150% var(--font-family);
     --text: 500 0.81rem/170% var(--font-family);
 
-    @media screen and (min-width: 375px) {
-        --text-lg: 700 2rem/150% var(--font-family);
+    @media screen and (min-width: 768px) {
+        --text-lg: 700 1.5rem/150% var(--font-family);
+        --text: 500 1rem/170% var(--font-family);
     }
 }
 
 body{
     display: grid;
-    grid-template-columns: minmax(24px, auto) minmax(0, 1440px) minmax(24px, auto);
+    grid-template-columns: minmax(24px, auto) minmax(0, 900px) minmax(24px, auto);
     grid-template-rows: 1fr 50px;
     place-content: center;
     place-items: center;

@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px) {
+    article{
+    flex-flow: row nowrap;
+
+    & > img{
+        height: auto;
+    }
+
+    & > div{
+        margin-top: 10px;
+        padding-block: 20px;
+
+        footer{
+            #share-container{
+                width: 50%;
+                height: 80%;
+                border-radius: 10px;
+                left: initial;
+                right: 0;
+                top: -70px;
+
+                &::after{
+                    content: "";
+                    position: absolute;
+
+                    bottom: -10px;
+                    left: 81%;
+                    transform: translateX(-50%);
+
+                    width: 0;
+                    height: 0;
+
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                    border-top: 10px solid #46566f;
+                }
+
+                p{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+}
+}
